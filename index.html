@@ -34,7 +34,7 @@
         </div>
         <div class="row">
             <div class="col-xs-3">
-                <div data-ex-role="facet" data-ex-facet-class="TextSearch" data-ex-facet-label="Search" data-ex-expressions=".label, .descripcion, .autor.label"></div>
+                <div data-ex-role="facet" data-ex-facet-class="TextSearch" data-ex-facet-label="Search" data-ex-expressions=".label"></div>
                 <div data-ex-role="facet" data-ex-expression=".tipo" data-ex-show-missing="false" data-ex-facet-label="Tipo de imagen" ></div>
             </div>
             <div class="col-xs-9">
@@ -43,11 +43,11 @@
                 </div>
                 <div class="item" data-ex-role="exhibit-lens" data-ex-item-types="Item" style="display: none" >
                 <img data-ex-src-content="concat('http://arasaac.org/repositorio/originales/', .label)"
-                class="img-thumbnail"></img>
-
+                class="img-thumbnail" width="100"></img>
                 </div>
+
                 <div data-ex-role="viewPanel">
-                    <div data-ex-role="view" data-ex-label="Listado" data-ex-paginate="true" data-ex-showAll="false" data-ex-grouped="false" >
+                    <div data-ex-role="view" data-ex-label="Listado" data-ex-paginate="true"  data-ex-grouped="false" data-ex-view-class="Thumbnail"  data-ex-show-all="false" data-ex-abbreviated-count="40">
                     </div>
                     </div>
                 </div>
