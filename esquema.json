@@ -1,0 +1,20 @@
+{
+    "types": {
+        "Item": {
+            "pluralLabel": "Imágenes",
+            "label": "Imagen"
+        },
+        "ti": {
+            "pluralLabel": "Tipos de imágenes",
+            "label": "Tipo de imagen"
+        }
+    },
+    "properties": {
+        "tipo": {
+            "valueType": "item"
+        },
+        "licencia": {
+            "valueType": "item"
+        }
+    }
+}
