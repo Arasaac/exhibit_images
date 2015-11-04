@@ -11,7 +11,6 @@
     <link href="ltags.json" type="application/json" rel="exhibit-data" />
     -->
     <link href="tags.csv" type="text/csv" rel="exhibit/data" />
-
     <link href="esquema.json" type="application/json" rel="exhibit-data" />
     <script src="http://api.simile-widgets.org/exhibit/HEAD/exhibit-api.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/bootstrap/3.3.0/css/bootstrap.min.css" />
@@ -22,9 +21,6 @@
     <style>
 
     </style>
-    <link href="http://vjs.zencdn.net/5.0/video-js.min.css" rel="stylesheet">
-
-     <script src="http://vjs.zencdn.net/5.0/video.js"></script>
 </head>
 
 <body>
@@ -41,7 +37,7 @@
         <div class="row">
             <div class="col-xs-3">
                 <div data-ex-role="facet" data-ex-facet-class="TextSearch" data-ex-facet-label="Search" data-ex-expressions="!imagenes.label"></div>
-                <div data-ex-role="facet" data-ex-expression=".tipo" data-ex-show-missing="false" data-ex-facet-label="Tipo de imagen"></div>
+                <div data-ex-role="facet" data-ex-expression=".tipo" data-ex-show-missing="false" data-ex-facet-label="Tipo de imagen" data-ex-missing-label="none" data-ex-scroll="false"></div>
             </div>
             <div class="col-xs-9">
                 <div data-ex-role="lens" data-ex-item-types="autor" style="display: none">
