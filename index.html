@@ -8,9 +8,8 @@
     <link href="imagenes.json" type="application/json" rel="exhibit-data" />
     <link href="tipos_imagenes.json" type="application/json" rel="exhibit-data" />
     <link href="wordlist.json" type="application/json" rel="exhibit-data" />
-
-    <link href="ltags.json" type="application/json" rel="exhibit-data" />
     <!--
+    <link href="ltags.json" type="application/json" rel="exhibit-data" />
     <link href="tags.csv" type="text/csv" rel="exhibit/data" />
     -->
     <link href="esquema.json" type="application/json" rel="exhibit-data" />
@@ -45,14 +44,14 @@
                 <div data-ex-role="lens" data-ex-item-types="autor" style="display: none">
                 </div>
                 <div class="item" data-ex-role="exhibit-lens" data-ex-item-types="Item" style="display: none">
-                    <div data-ex-select=".tipo">
-                        <div data-ex-case="ti11">
-                            <a type="button" class="btn btn-link" data-ex-href-content="concat('http://arasaac.org/repositorio/LSE_acepciones/', .label)"><span class="glyphicon glyphicon-film"></span> Link Video</a>
+                    <div class="thumbnail">
+                        <div data-ex-select=".tipo">
+                            <div data-ex-case="ti11">
+                                <a type="button" class="btn btn-link" data-ex-href-content="concat('http://arasaac.org/repositorio/LSE_acepciones/', .label)"><span class="glyphicon glyphicon-film"></span> Link Video</a>
+                            </div>
+                            <img data-ex-src-content="concat('http://arasaac.org/repositorio/originales/', .label)" class="img-thumbnail" width="100" data-ex-alt-content="!ims.label">
                         </div>
-                        <div>
-                        <img data-ex-src-content="concat('http://arasaac.org/repositorio/originales/', .label)" class="img-thumbnail" width="100"></img>
-                        <p data-ex-content="!ims.label"></p>
-                        </div>
+                        <p class="caption" data-ex-content="!ims.label"></p>
                     </div>
                 </div>
                 <div data-ex-role="viewPanel">
@@ -62,7 +61,5 @@
             </div>
         </div>
     </div>
-    </div>
 </body>
-
 </html>
