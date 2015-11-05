@@ -15,6 +15,9 @@
         },
         "licencia": {
             "valueType": "item"
+        },
+        "cat":{
+            "valueType": "item"
         }
     }
 }
